@@ -27,6 +27,10 @@ What's new in v5.0.0.3
 </PackageReleaseNotes>
 	</PropertyGroup>
 
+	<PropertyGroup>
+	    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+	</PropertyGroup>
+
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
 	  <DocumentationFile>E:\Projects\GitHub\obs-websocket-dotnet-standard\obs-websocket-dotnet\obs-websocket-dotnet.xml</DocumentationFile>
 	</PropertyGroup>
